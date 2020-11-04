@@ -17,12 +17,12 @@
 
 .h3 {
   color:#767676;
+  margin-bottom: 50px;
 }
 
 
 .App-header {
-  height: 170px;
-  background-color: #282c34;
+  background-color: #5ab4bb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,6 +30,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Carter One', cursive;
+ 
 }
 
 .App-link {
@@ -43,5 +44,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-cards {
+  margin-top: 50px;
 }
 

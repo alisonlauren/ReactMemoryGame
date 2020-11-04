@@ -38,8 +38,8 @@
 .MemoryCard__back{
     background: repeating-linear-gradient(
         45deg,
-        rgb(86, 86, 148) 10px,
-        rgb(204, 194, 194) 20px              
+        rgb(244, 244, 245) 10px,
+        rgb(243, 231, 231) 20px              
 );
 
 }

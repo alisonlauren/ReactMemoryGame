@@ -1,5 +1,6 @@
 import React from 'react';
 import './MemoryCard.css';
+import Logo from "./img/boltsource.png"
 
 function Card(props) {
     let innerClass = "MemoryCard__inner";
@@ -10,7 +11,7 @@ function Card(props) {
         <div className="MemoryCard" onClick={props.pickCard}>
             <div className={innerClass}>
                 <div className="MemoryCard__back">
-                <img src="https://www.digitalcrafts.com/img/logo-wrench-white.png" alt="" />
+                <img src={Logo} alt="" />
                 </div>
                 <div className="MemoryCard__front">
                     {props.symbol}
@@ -21,5 +22,6 @@ function Card(props) {
 }
 
 export default Card;
+
 
 

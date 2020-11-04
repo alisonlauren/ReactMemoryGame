@@ -94,7 +94,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Memory Game</h1>
-        <h3>Match cards to win</h3>
+        <h3>Match Two Cards With The Same Symbol To Win!</h3>
       </header>
       <div className="App-cards">
         <div>
