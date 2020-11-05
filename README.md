@@ -7,6 +7,10 @@
 
 - React App [https://github.com/alisonlauren/ReactMemoryGame/blob/master/memory-game/src/App.js](https://github.com/alisonlauren/ReactMemoryGame/blob/master/memory-game/src/App.js)
 
+<p align="left">
+In terms of semantic styling, I can assure it that I was taught the correct way to write functional, readable, and effective code. You'll see within the App.js
+</p>
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
