@@ -1,7 +1,8 @@
+//must import the useEffect, useState and any other function that will be used create my Hooks.
 import React, { useEffect, useState } from 'react';
 import './App.css';
-
 import MemoryCard from './components/MemoryCard';
+
 
 function generateDeck() {
   const symbols = ['∆', 'ß', '£', '§', '•', '$', '+', 'ø'];
@@ -22,8 +23,10 @@ function shuffle(a) {
   }
   return a;
 }
-
+//below I refactored my original code.
 function App() {
+  //first variable, then creating function that sets the state variable
+  //using the Array Destructuring Assignment
   const [ deck, setDeck ] = useState(generateDeck());
   const [ pickedCards, setPickedCards ] = useState([])
     
@@ -46,9 +49,12 @@ function App() {
     setDeck(newDeck)
     setPickedCards(newPickedCards);
   }
-
+  //the use effect replaces the new for ComponentDidMount, ComponentWillMount, and ComponentDidUpdate
+  //effect is essentially refering the the "side effects" of
+  //what happens in certain points in the life of a component
   useEffect(() => {
     const unflipCards = (card1Index, card2Index) => {
+      //previously, this.set
       const card1 =  {...deck[card1Index]};
       const card2 =  {...deck[card2Index]};
       card1.isFlipped = false;
@@ -77,6 +83,10 @@ function App() {
       }
       setPickedCards([]);
     }
+    //useeffect accepts an array as an optional second arguement
+    //serves as a list of variables to watch for changes
+    //if one of the variables in the array does change from one
+    //render to the next, useeffect will call the callback
   }, [pickedCards, deck]);
 
   const cardsJSX = deck.map((card, index) => {
