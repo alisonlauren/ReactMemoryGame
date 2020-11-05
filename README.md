@@ -3,7 +3,7 @@
 
 
 <h3 align="left">Hooks & Semantic Styling:</h3>
-<p align="left"> Here in my react app, I refactored my code from “this.state” and use of functional components in order to use the functionality of hooks. What I’ve learned so far, that the greatest advantage of Hooks is the time it saves. Having DRY code is important to me. I provided commenting in my code to show how my understanding. Below is a screenshot of my commenting. </p>
+<p align="left"> Here in my react app, I refactored my code from “this.state” and use of functional components in order to use the functionality of hooks. What I’ve learned so far, that the greatest advantage of Hooks is the time it saves. Having DRY code is important to me.. Here is a link to the exact file I refactored with commenting to show my understanding <a href="https://github.com/alisonlauren/ReactMemoryGame/blob/master/memory-game/src/App.js" />  </p>
 
 
 
